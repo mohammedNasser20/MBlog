@@ -58,12 +58,12 @@
   </div>
 
   <!-- Libs JS -->
-  <script src="{{asset('back/dist/libs/ijaboCropTool/jquery-1.7.1.min.js')}}" defer></script>
+  <script src="{{asset('./back/dist/libs/ijaboCropTool/jquery-1.7.1.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/ijabo/ijabo.min.js')}}" defer></script>
-  <script src="{{asset('./back/dist/libs/apexcharts/dist/apexcharts.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/jsvectormap/dist/js/jsvectormap.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/jsvectormap/dist/maps/world.js')}}" defer></script>
-  <script src="{{asset('./back/dist/libs/ijaboCropTool/ijaboCropTool.min.js')}}" defer></script>
+  <script src="{{asset('./back/dist/libs/ijaboCropTool/ijaboCropTool.min.js')}}"></script>
+  <script src="{{asset('./back/dist/libs/apexcharts/dist/apexcharts.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/jsvectormap/dist/maps/world-merc.js')}}" defer></script>
   
 

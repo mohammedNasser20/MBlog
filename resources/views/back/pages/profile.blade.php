@@ -36,10 +36,11 @@
 </div>
 
 @endsection
+
 @push('scripts')
- <script>
+<script>
     $('#changeAuthorPictureFile').ijaboCropTool({
-        preview: '',
+
         setRatio: 1,
         allowedExtensions: ['jpg', 'jpeg', 'png'],
         buttonsText: ['CROP', 'QUIT'],
@@ -47,12 +48,13 @@
         processUrl: '{{ route("author.change-profile-picture") }}',
         withCSRF: ['_token', '{{ csrf_token() }}'],
         onSuccess: function(message, element, status) {
-            alert(message);
+            livewire.emit('updateAuthorProfileHeader');
+            livewire.emit('updateTopHeader');
+            toastr.success('message');
         },
         onError: function(message, element, status) {
-            alert(message);
+            toastr.error('message');
         }
     });
-</script> 
-
-@endpush
+</script>
+< @endpush

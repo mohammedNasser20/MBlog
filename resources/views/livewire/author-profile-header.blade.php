@@ -27,11 +27,11 @@
                 </div>
             </div>
             <div class="col-auto  d-md-flex">
-
                 <input type="file" name="file" id="changeAuthorPictureFile" class="d-none" onchange="this.dispatchEvent(new InputEvent('input'))">
                 <a href="#" class="btn btn-primary" onclick="event.preventDefault();document.getElementById('changeAuthorPictureFile').click();">
-                    Change Picture
+                    chage picture
                 </a>
+
             </div>
         </div>
 
