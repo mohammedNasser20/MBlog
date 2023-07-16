@@ -15,6 +15,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>@yield('pageTitle')</title>
   <!-- CSS files -->
+  <link rel="shortcut icon" href="{{\App\Models\Setting::find(1)->blog_favicon}}" type="image/x-icon">
   <link href=" {{asset('./back/dist/css/tabler.min.css')}}" rel="stylesheet" />
   <link href="{{asset('./back/dist/css/tabler-flags.min.css')}}" rel="stylesheet" />
   <link href="{{asset('./back/dist/css/tabler-payments.min.css')}}" rel="stylesheet" />

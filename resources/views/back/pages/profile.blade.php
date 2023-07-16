@@ -56,5 +56,6 @@
             toastr.error('message');
         }
     });
+
 </script>
 < @endpush

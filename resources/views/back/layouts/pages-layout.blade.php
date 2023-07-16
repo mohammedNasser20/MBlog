@@ -16,6 +16,7 @@
   <title>@yield('pageTitle')</title>
   <!-- CSS files -->
   <base href="\">
+  <link rel="shortcut icon" href="{{\App\Models\Setting::find(1)->blog_favicon}}" type="image/x-icon">
   <link href="{{asset('./back/dist/css/tabler.min.css')}}" rel="stylesheet" />
   <link href="{{asset('./back/dist/css/tabler-flags.min.css')}}" rel="stylesheet" />
   <link href="{{asset('./back/dist/css/tabler-payments.min.css')}}" rel="stylesheet" />
@@ -58,14 +59,14 @@
   </div>
 
   <!-- Libs JS -->
-  <script src="{{asset('./back/dist/libs/ijaboCropTool/jquery-1.7.1.min.js')}}" defer></script>
+  <script src="{{asset('./back/dist/libs/jquery/jquery-3.6.0.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/ijabo/ijabo.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/jsvectormap/dist/js/jsvectormap.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/jsvectormap/dist/maps/world.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/ijaboCropTool/ijaboCropTool.min.js')}}"></script>
   <script src="{{asset('./back/dist/libs/apexcharts/dist/apexcharts.min.js')}}" defer></script>
   <script src="{{asset('./back/dist/libs/jsvectormap/dist/maps/world-merc.js')}}" defer></script>
-  
+  <script src="{{asset('./back/dist/libs/ijaboViewer/jquery.ijaboViewer.min.js')}}"></script>
 
 
   <!-- Tabler Core -->
