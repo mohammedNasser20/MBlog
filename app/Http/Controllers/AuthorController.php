@@ -83,7 +83,7 @@ class AuthorController extends Controller
                 return response()->json(['status'=>0,'msg'=>'Somthing went wrong']);
                  //something went wrong while uploading the file to server
             }
-        }else{ // dd($request);
+        }else{ // dd($request);hhhhhhhhhhhhhhhhhhh
         }
     }
 }
